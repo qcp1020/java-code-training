@@ -19,15 +19,14 @@ public class BM1 {
     }
 
     public static ListNode ReverseList(ListNode head) {
-        ListNode nextNode = null;
-        ListNode preNode = head;
-        ListNode node = head;
-        while (node != null) {
-            preNode = node.next;
-            node.next = nextNode;
-            nextNode = node;
-            node = preNode;
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode nextTemp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextTemp;
         }
-        return nextNode;
+        return prev;
     }
 }
