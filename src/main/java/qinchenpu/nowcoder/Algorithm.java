@@ -4,14 +4,14 @@
  * @Date 2021年7月1日
  * @CopyRight 版权所有 (C) 中国移动 杭州研发中心.
  */
-package qinchenpu.leetcode;
+package qinchenpu.nowcoder;
 
 import common.ListNode;
 import common.TreeNode;
 
 import java.util.*;
 
-import static common.CommonUtils.printListNode;
+import static common.CommonUtils.generateListNodes;
 
 /**
  * 来源：力扣（LeetCode）
@@ -116,22 +116,8 @@ public class Algorithm {
 //        list.forEach(System.out::println);
 
         int[] arr = {1, 2, 3, 4, 5};
-        ListNode head = generateListNodes(arr);
-        ListNode node = reverseListNode(head);
-        printListNode(node);
-    }
-
-    private static ListNode reverseListNode(ListNode head) {
-        ListNode nextNode = null;
-        ListNode preNode = head;
-        ListNode node = head;
-        while (node != null) {
-            preNode = node.next;
-            node.next = nextNode;
-            nextNode = node;
-            node = preNode;
-        }
-        return nextNode;
+        ListNode node = generateListNodes(arr);
+        soutListNode(node);
     }
 
 
@@ -179,18 +165,15 @@ public class Algorithm {
         return true;
     }
 
-
-
-    private static ListNode generateListNodes(int[] nums) {
-        ListNode headNode = new ListNode(nums[0]);
-        ListNode preNode = headNode;
-        for (int i = 1; i < nums.length; i++) {
-            ListNode node = new ListNode(nums[i]);
-            preNode.next = node;
-            preNode = node;
-        }
-        return headNode;
+    private static void soutListNode(ListNode node1) {
+        ListNode node = node1;
+        do {
+            System.out.println(node);
+            node = node.next;
+        } while (node != null);
     }
+
+
 
     /**
      * 21. 合并两个有序链表

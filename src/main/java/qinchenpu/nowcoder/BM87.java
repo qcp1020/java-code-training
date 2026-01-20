@@ -1,4 +1,4 @@
-package qinchenpu.leetcode.nowcoder;
+package qinchenpu.nowcoder;
 
 import java.util.Arrays;
 

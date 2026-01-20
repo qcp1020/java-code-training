@@ -1,4 +1,4 @@
-package qinchenpu.leetcode.tool;
+package qinchenpu.tool;
 
 import java.util.Calendar;
 
