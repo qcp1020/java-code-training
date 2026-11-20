@@ -1,0 +1,35 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.8",
+  "base_commit_sha": "b8000148a4ef1126b5a96501517927a470b11fe2",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 252,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 252,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "src/main/java/qinchenpu/tool/BillRangeCount.java": {
+        "BYMC": [
+          "1-103"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/WifiRouterOffline.java": {
+        "BYMC": [
+          "1-149"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795165393,
+  "requirement_id": ""
+}
