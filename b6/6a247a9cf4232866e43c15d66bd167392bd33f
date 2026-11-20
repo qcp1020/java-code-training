@@ -1,0 +1,63 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.8",
+  "base_commit_sha": "b66a247a9cf4232866e43c15d66bd167392bd33f",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 122,
+    "git_diff_deleted_lines": 3,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 122,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "src/main/java/qinchenpu/nowcoder/BISHI/BISHI46.java": {
+        "BYMC": [
+          "1-15"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM1.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM18.java": {
+        "BYMC": [
+          "1-79"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM4.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM72.java": {
+        "BYMC": [
+          "1-25"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM87.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795164449,
+  "requirement_id": ""
+}
