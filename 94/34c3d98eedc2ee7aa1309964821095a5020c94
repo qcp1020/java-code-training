@@ -1,0 +1,91 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.8",
+  "base_commit_sha": "9434c3d98eedc2ee7aa1309964821095a5020c94",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 453,
+    "git_diff_deleted_lines": 0,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 453,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "src/main/java/qinchenpu/nowcoder/BISHI/BISHI13.java": {
+        "BYMC": [
+          "1-38"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BISHI/BISHI2.java": {
+        "BYMC": [
+          "1-44"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BISHI/BISHI37.java": {
+        "BYMC": [
+          "1-46"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BISHI/BISHI4.java": {
+        "BYMC": [
+          "1-70"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BISHI/BISHI55.java": {
+        "BYMC": [
+          "1-36"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM13.java": {
+        "BYMC": [
+          "1-43"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM14.java": {
+        "BYMC": [
+          "1-79"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM20.java": {
+        "BYMC": [
+          "1-31"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM42.java": {
+        "BYMC": [
+          "1-33"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/nowcoder/BM/BM71.java": {
+        "BYMC": [
+          "1-33"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795164899,
+  "requirement_id": ""
+}
