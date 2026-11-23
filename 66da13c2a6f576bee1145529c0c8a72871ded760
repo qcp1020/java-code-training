@@ -1,0 +1,64 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.8",
+  "base_commit_sha": "66da13c2a6f576bee1145529c0c8a72871ded760",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 135,
+    "git_diff_deleted_lines": 132,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 134,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "src/main/java/interview/Alibaba.java": {
+        "BYMC": [
+          "4-6",
+          "8-12",
+          "14-36"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/interview/TongHuaShun.java": {
+        "BYMC": [
+          "21",
+          "25",
+          "28",
+          "32",
+          "35",
+          "38"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/interview/XiaoManKeji.java": {
+        "BYMC": [
+          "11-15",
+          "17-20",
+          "26-33",
+          "35-48"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/interview/ZhaoshangBank.java": {
+        "BYMC": [
+          "7-11",
+          "13-16",
+          "19-22",
+          "24-39",
+          "41-47",
+          "49-78"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795404371,
+  "requirement_id": ""
+}
