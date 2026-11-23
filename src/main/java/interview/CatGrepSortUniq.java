@@ -18,7 +18,7 @@ import static java.util.concurrent.Executors.*;
 /**
  * 请用java写代码实现如下的linux命令：cat /home/a.log | grep 'abc' | sort | uniq
  */
-public class Test1 {
+public class CatGrepSortUniq {
 	public static void main(String[] args) throws IOException {
 		File file = new File("C:/Users/CHENPU/Desktop/a.txt");
 //		File file = new File("/home/a.log");
