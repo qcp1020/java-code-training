@@ -18,23 +18,23 @@ public class TongHuaShun {
         if (str == null || str.length() <= 1) {
             return str;
         }
-        String result = str.substring(0,1);
+        String result = str.substring(0, 1);
         String tmpStr = result;
         for (int i = 1; i < str.length(); i++) {
             char charStr = str.charAt(i);
-            if (!tmpStr.contains(charStr+"")){
+            if (!tmpStr.contains(charStr + "")) {
                 tmpStr += charStr;
             } else {
-                if (tmpStr.length()>result.length()){
+                if (tmpStr.length() > result.length()) {
                     result = tmpStr;
                 }
                 int index = tmpStr.indexOf(charStr);
-                tmpStr = tmpStr.substring(index+1, tmpStr.length())+charStr;
+                tmpStr = tmpStr.substring(index + 1, tmpStr.length()) + charStr;
             }
         }
-        if (tmpStr.length()>result.length()){
+        if (tmpStr.length() > result.length()) {
             result = tmpStr;
         }
-        return  result;
+        return result;
     }
 }
