@@ -1,0 +1,84 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.8",
+  "base_commit_sha": "4bcc8909621ad96f6d65764a0b4ee09a6df9252a",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 1325,
+    "git_diff_deleted_lines": 169,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 1325,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "src/main/java/qinchenpu/nowcoder/MonsterMaxExp.java": {
+        "BYMC": [
+          "1-76"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/Kangyang.java": {
+        "BYMC": [
+          "1-121"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/MaxAlarmRectangle.java": {
+        "BYMC": [
+          "1-95"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/MaxSelfMultiplyTimes.java": {
+        "BYMC": [
+          "1-108"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/MinCostToOne.java": {
+        "BYMC": [
+          "1-129"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/MobileAiAppBillRangeCount.java": {
+        "BYMC": [
+          "1-133"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/OrderedPrinter.java": {
+        "BYMC": [
+          "1-66"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/VirtualKeyboardWordSearch.java": {
+        "BYMC": [
+          "1-412"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/tool/WordLadderBFS.java": {
+        "BYMC": [
+          "1-185"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795424030,
+  "requirement_id": ""
+}
