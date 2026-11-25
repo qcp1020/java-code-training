@@ -1,4 +1,4 @@
-package qinchenpu.tool;
+package qinchenpu.hy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

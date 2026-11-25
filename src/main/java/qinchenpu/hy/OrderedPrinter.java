@@ -1,4 +1,4 @@
-package qinchenpu.tool;
+package qinchenpu.hy;
 
 /**
  * 打印顺序控制：让并发线程的输出按"文件编号"顺序落地。
