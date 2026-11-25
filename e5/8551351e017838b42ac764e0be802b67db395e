@@ -1,0 +1,91 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.8",
+  "base_commit_sha": "e58551351e017838b42ac764e0be802b67db395e",
+  "prompts": {},
+  "commit_stats": {
+    "git_diff_added_lines": 10,
+    "git_diff_deleted_lines": 10,
+    "ai_additions": 0,
+    "ai_accepted": 0,
+    "BYMC": 10,
+    "mixed_additions": 0,
+    "BYAC": 0,
+    "BYRC": 0,
+    "per_file": {
+      "src/main/java/qinchenpu/hy/CrossShapedSum.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/Kangyang.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/MaxAlarmRectangle.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/MaxSelfMultiplyTimes.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/MinCostToOne.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/MobileAiAppBillRangeCount.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/OrderedPrinter.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/ToolTest.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/VirtualKeyboardWordSearch.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      },
+      "src/main/java/qinchenpu/hy/WifiRouterOffline.java": {
+        "BYMC": [
+          "1"
+        ],
+        "BYAC": [],
+        "BYRC": []
+      }
+    }
+  },
+  "commit_timestamp": 1795577867,
+  "requirement_id": ""
+}
